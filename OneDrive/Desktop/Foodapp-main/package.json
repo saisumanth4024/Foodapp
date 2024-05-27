@@ -1,0 +1,28 @@
+{
+  "name": "swiggy-app",
+  "version": "1.0.0",
+  "description": "this is swiggy-app by saisumanth",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "sai sumanth",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "postcss": "^8.4.38",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.3",
+    "react": "^18.2.0",
+    "react-redux": "^9.1.0",
+    "react-router-dom": "^6.22.3"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
